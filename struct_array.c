@@ -13,7 +13,7 @@ int main(){
     struct Student students[] = {student1,student2,student3};
     for (int i = 0; i < sizeof(students)/sizeof(students[0]); i++)
     {
-        printf("%s's gpa is %.2f\n",students[i].name,students[i].gpa);
+        printf("%-12s gpa : %.2f\n",students[i].name,students[i].gpa);
     }
     
     
